@@ -1,0 +1,11 @@
+.diskon {
+    background: linear-gradient(90deg, rgba(154,0,0,1) 0%, rgba(232,0,5,1) 62%, rgba(154,0,0,1) 100%);
+    width: 23%;
+    position: absolute;
+    right: 0;
+    top: 2%;
+    border-top-left-radius: 10px;
+}
+
+
+

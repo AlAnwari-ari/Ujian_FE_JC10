@@ -1,0 +1,525 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "password",
+      "role": "admin",
+      "id": "1"
+    },
+    {
+      "username": "user1",
+      "password": "password",
+      "email": "test@mail.com",
+      "role": "user",
+      "id": "2"
+    },
+    {
+      "username": "user2",
+      "password": "password",
+      "email": "test2@mail.com",
+      "role": "user",
+      "id": "3"
+    },
+    {
+      "username": "user3",
+      "password": "password",
+      "email": "test33@mail.com",
+      "role": "user",
+      "id": "4"
+    },
+    {
+      "username": "karamel",
+      "password": "password",
+      "email": "coklat@mail.com",
+      "role": "user",
+      "id": "5"
+    },
+    {
+      "username": "Bacot",
+      "password": "sama",
+      "email": "mail.com",
+      "role": "user",
+      "id": "bRTFvEc"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "nama": "Kaos Polos Hitam",
+      "harga": 20000,
+      "category": "polos",
+      "discount": "15",
+      "deskripsi": "Kaos Terbaik",
+      "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg"
+    },
+    {
+      "id": 2,
+      "nama": "The Dark Knight",
+      "harga": 40000,
+      "category": "sablon",
+      "discount": 0,
+      "deskripsi": "Kaos Terbaik",
+      "img": "https://store.primagraphia.co.id/wp-content/uploads/2019/05/Gildan-63000_Red.jpg"
+    },
+    {
+      "nama": "Epic Comeback",
+      "harga": 30000,
+      "discount": 20,
+      "category": "sablon",
+      "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+      "deskripsi": "Kaos Terbaik",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "nama": "Kopi Mantul",
+      "harga": "20000",
+      "category": "minuman",
+      "discount": "10",
+      "deskripsi": "kopi joss",
+      "img": "https://cdn-u1-gnfi.imgix.net/post/large-manfaat-minum-kopi-luwak-hitam-abc-secangkir-061b1206042eb1a237587c15e4f66138.jpg"
+    }
+  ],
+  "cart": [],
+  "history": [
+    {
+      "userId": "5",
+      "items": [
+        {
+          "productId": 1,
+          "userId": "5",
+          "quantity": 3,
+          "price": 20000,
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": 10,
+          "productName": "Kaos Polos Hitam",
+          "id": 1
+        },
+        {
+          "productId": 2,
+          "userId": "5",
+          "quantity": 2,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2019/05/Gildan-63000_Red.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 2
+        },
+        {
+          "productId": 3,
+          "userId": "5",
+          "quantity": 3,
+          "price": 30000,
+          "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+          "discount": 20,
+          "productName": "Epic Comeback",
+          "id": 3
+        }
+      ],
+      "time": "2019-9-4",
+      "totalPrice": 206000,
+      "recipient": "bobo",
+      "address": "asda",
+      "postalCode": "12334",
+      "id": 1
+    },
+    {
+      "userId": "5",
+      "items": [
+        {
+          "productId": 1,
+          "userId": "5",
+          "quantity": 2,
+          "price": 20000,
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": 15,
+          "productName": "Kaos Polos Hitam",
+          "id": 1
+        },
+        {
+          "productId": 2,
+          "userId": "5",
+          "quantity": 3,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2019/05/Gildan-63000_Red.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 2
+        },
+        {
+          "productId": 4,
+          "userId": "5",
+          "quantity": 2,
+          "price": "20000",
+          "img": "https://cdn-u1-gnfi.imgix.net/post/large-manfaat-minum-kopi-luwak-hitam-abc-secangkir-061b1206042eb1a237587c15e4f66138.jpg",
+          "discount": 10,
+          "productName": "Kopi Mantul",
+          "id": 3
+        }
+      ],
+      "time": "2019-9-4",
+      "totalPrice": 190000,
+      "recipient": "Bob",
+      "address": "mana",
+      "postalCode": "12423",
+      "id": 2
+    },
+    {
+      "userId": "5",
+      "items": [
+        {
+          "productId": 1,
+          "userId": "5",
+          "quantity": 3,
+          "price": 20000,
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": 15,
+          "productName": "Kaos Polos Hitam",
+          "id": 1
+        },
+        {
+          "productId": 2,
+          "userId": "5",
+          "quantity": 4,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2019/05/Gildan-63000_Red.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 2
+        },
+        {
+          "productId": 3,
+          "userId": "5",
+          "quantity": 2,
+          "price": 30000,
+          "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+          "discount": 20,
+          "productName": "Epic Comeback",
+          "id": 3
+        },
+        {
+          "productId": 4,
+          "userId": "5",
+          "quantity": 3,
+          "price": "20000",
+          "img": "https://cdn-u1-gnfi.imgix.net/post/large-manfaat-minum-kopi-luwak-hitam-abc-secangkir-061b1206042eb1a237587c15e4f66138.jpg",
+          "discount": 10,
+          "productName": "Kopi Mantul",
+          "id": 4
+        }
+      ],
+      "time": "2019-9-4",
+      "totalPrice": 313000,
+      "recipient": "Mmon",
+      "address": "Kosan",
+      "postalCode": "12421",
+      "id": 3
+    },
+    {
+      "userId": "5",
+      "items": [
+        {
+          "productId": 1,
+          "userId": "5",
+          "quantity": 2,
+          "price": 20000,
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": 15,
+          "productName": "Kaos Polos Hitam",
+          "id": 1
+        },
+        {
+          "productId": 2,
+          "userId": "5",
+          "quantity": 2,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2019/05/Gildan-63000_Red.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 2
+        },
+        {
+          "productId": 3,
+          "userId": "5",
+          "quantity": 1,
+          "price": 30000,
+          "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+          "discount": 20,
+          "productName": "Epic Comeback",
+          "id": 3
+        },
+        {
+          "productId": 4,
+          "userId": "5",
+          "quantity": 2,
+          "price": "20000",
+          "img": "https://cdn-u1-gnfi.imgix.net/post/large-manfaat-minum-kopi-luwak-hitam-abc-secangkir-061b1206042eb1a237587c15e4f66138.jpg",
+          "discount": 10,
+          "productName": "Kopi Mantul",
+          "id": 4
+        }
+      ],
+      "time": "2019-9-4",
+      "totalPrice": 174000,
+      "recipient": "Bob",
+      "address": "Mana",
+      "postalCode": "12134",
+      "id": 4
+    },
+    {
+      "userId": "5",
+      "items": [
+        {
+          "productId": 1,
+          "userId": "5",
+          "quantity": 2,
+          "price": 20000,
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": 15,
+          "productName": "Kaos Polos Hitam",
+          "id": 1
+        },
+        {
+          "productId": 3,
+          "userId": "5",
+          "quantity": 2,
+          "price": 30000,
+          "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+          "discount": 20,
+          "productName": "Epic Comeback",
+          "id": 2
+        },
+        {
+          "productId": 2,
+          "userId": "5",
+          "quantity": 2,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2019/05/Gildan-63000_Red.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 3
+        },
+        {
+          "productId": 4,
+          "userId": "5",
+          "quantity": 2,
+          "price": "20000",
+          "img": "https://cdn-u1-gnfi.imgix.net/post/large-manfaat-minum-kopi-luwak-hitam-abc-secangkir-061b1206042eb1a237587c15e4f66138.jpg",
+          "discount": 10,
+          "productName": "Kopi Mantul",
+          "id": 4
+        }
+      ],
+      "time": "2019-9-5",
+      "totalPrice": 198000,
+      "recipient": "Lola",
+      "address": "Kentayangan",
+      "postalCode": "12432",
+      "id": 5
+    },
+    {
+      "userId": "3",
+      "items": [
+        {
+          "productId": 4,
+          "userId": "3",
+          "quantity": 2,
+          "price": "20000",
+          "img": "https://cdn-u1-gnfi.imgix.net/post/large-manfaat-minum-kopi-luwak-hitam-abc-secangkir-061b1206042eb1a237587c15e4f66138.jpg",
+          "discount": 10,
+          "productName": "Kopi Mantul",
+          "id": 1
+        },
+        {
+          "productId": 1,
+          "userId": "3",
+          "quantity": 1,
+          "price": 20000,
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": 15,
+          "productName": "Kaos Polos Hitam",
+          "id": 2
+        },
+        {
+          "productId": 3,
+          "userId": "3",
+          "quantity": 3,
+          "price": 30000,
+          "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+          "discount": 20,
+          "productName": "Epic Comeback",
+          "id": 3
+        },
+        {
+          "productId": 2,
+          "userId": "3",
+          "quantity": 1,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2019/05/Gildan-63000_Red.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 4
+        }
+      ],
+      "time": "2019-9-6",
+      "totalPrice": 165000,
+      "recipient": "Jojo",
+      "address": "Sliweran",
+      "postalCode": "12341",
+      "id": 6
+    },
+    {
+      "userId": "2",
+      "items": [
+        {
+          "productId": 3,
+          "userId": "2",
+          "quantity": 1,
+          "price": 30000,
+          "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+          "discount": 20,
+          "productName": "Epic Comeback",
+          "id": 1
+        },
+        {
+          "productId": 4,
+          "userId": "2",
+          "quantity": 5,
+          "price": "20000",
+          "img": "https://cdn-u1-gnfi.imgix.net/post/large-manfaat-minum-kopi-luwak-hitam-abc-secangkir-061b1206042eb1a237587c15e4f66138.jpg",
+          "discount": 10,
+          "productName": "Kopi Mantul",
+          "id": 2
+        },
+        {
+          "productId": 1,
+          "userId": "2",
+          "quantity": 1,
+          "price": 20000,
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": 15,
+          "productName": "Kaos Polos Hitam",
+          "id": 3
+        },
+        {
+          "productId": 2,
+          "userId": "2",
+          "quantity": 1,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2019/05/Gildan-63000_Red.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 4
+        }
+      ],
+      "time": "2019-9-6",
+      "totalPrice": 171000,
+      "recipient": "Iis",
+      "address": "Flyover Kentungan",
+      "postalCode": "21321",
+      "id": 7
+    },
+    {
+      "userId": "3",
+      "items": [
+        {
+          "productId": 2,
+          "userId": "3",
+          "quantity": 1,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2019/05/Gildan-63000_Red.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 1
+        },
+        {
+          "productId": 4,
+          "userId": "3",
+          "quantity": 1,
+          "price": "20000",
+          "img": "https://cdn-u1-gnfi.imgix.net/post/large-manfaat-minum-kopi-luwak-hitam-abc-secangkir-061b1206042eb1a237587c15e4f66138.jpg",
+          "discount": 10,
+          "productName": "Kopi Mantul",
+          "id": 2
+        },
+        {
+          "productId": 1,
+          "userId": "3",
+          "quantity": 1,
+          "price": 20000,
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": 15,
+          "productName": "Kaos Polos Hitam",
+          "id": 3
+        },
+        {
+          "productId": 3,
+          "userId": "3",
+          "quantity": 1,
+          "price": 30000,
+          "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+          "discount": 20,
+          "productName": "Epic Comeback",
+          "id": 4
+        }
+      ],
+      "time": "2019-9-6",
+      "totalPrice": 99000,
+      "recipient": "Yoyo",
+      "address": "Damdam",
+      "postalCode": "78921",
+      "id": 8
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 3,
+          "userId": "4",
+          "quantity": 2,
+          "price": 30000,
+          "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+          "discount": 20,
+          "productName": "Epic Comeback",
+          "id": 1
+        },
+        {
+          "productId": 4,
+          "userId": "4",
+          "quantity": 2,
+          "price": "20000",
+          "img": "https://cdn-u1-gnfi.imgix.net/post/large-manfaat-minum-kopi-luwak-hitam-abc-secangkir-061b1206042eb1a237587c15e4f66138.jpg",
+          "discount": 10,
+          "productName": "Kopi Mantul",
+          "id": 2
+        },
+        {
+          "productId": 1,
+          "userId": "4",
+          "quantity": 1,
+          "price": 20000,
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": 15,
+          "productName": "Kaos Polos Hitam",
+          "id": 3
+        },
+        {
+          "productId": 2,
+          "userId": "4",
+          "quantity": 1,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2019/05/Gildan-63000_Red.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 4
+        }
+      ],
+      "time": "2019-9-6",
+      "totalPrice": 141000,
+      "recipient": "Joly",
+      "address": "Kos Tentrem",
+      "postalCode": "34123",
+      "id": 9
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+.body {
+    height: 91vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* .regbox {
+    
+    
+
+} */
+
+.gambar {
+    width: 115vh;
+    height: 91.5vh;
+    transform: translate(-34vh) 
+    
+    
+}
+
+.btnsub {
+    background-color: rgb(255, 66, 98);
+    border: none;
+    
+}
+
+.over {
+    width: 81vh;
+    height: 91.5vh;
+    background-color: rgb(255, 66, 98);
+    position: absolute;
+    z-index: 1;
+    opacity: 0.2;
+}
+
+.ajak {
+    font-size: 3vh;
+}
+
+
+

@@ -1,0 +1,89 @@
+.kotak {
+    background: linear-gradient(90deg, rgba(113,1,95,1) 0%, rgba(231,16,197,1) 49%, rgba(113,1,95,1) 100%);
+    
+}
+
+/* .sub {
+    background-color: rgb(255, 231, 235);
+} */
+
+/* Link:hover {
+    text-decoration: none;
+
+} */
+
+.submenu {
+    color: #b8009b;
+
+}
+/* .submenu:hover {
+    color: rgb(255, 66, 98);
+
+} */
+
+
+.pinggir1:before {
+    content: "";
+    position: absolute;
+    width: 3%;
+    height: 20%;
+    background: #b8009b;
+    margin-top: 8px;
+    left: 0;
+    top: 0;
+    transition: 0.3s;
+    opacity: 0;
+
+}
+
+.pinggir2:before {
+    content: "";
+    position: absolute;
+    width: 3%;
+    height: 20%;
+    background: #b8009b;
+    margin-top: 40px;
+    left: 0;
+    top: 0;
+    transition: 0.3s;
+    opacity: 0;
+
+}
+
+.pinggir3:before {
+    content: "";
+    position: absolute;
+    width: 3%;
+    height: 20%;
+    background: #b8009b;
+    margin-top: 72px;
+    left: 0;
+    top: 0;
+    transition: 0.3s;
+    opacity: 0;
+
+}
+
+.pinggir4:before {
+    content: "";
+    position: absolute;
+    width: 3%;
+    height: 20%;
+    background: #b8009b;
+    margin-top: 121px;
+    left: 0;
+    top: 0;
+    transition: 0.3s;
+    opacity: 0;
+
+}
+
+.pinggir1:hover:before, .pinggir2:hover:before, .pinggir3:hover:before, .pinggir4:hover:before {
+    opacity: 1;
+}
+
+
+
+
+
+

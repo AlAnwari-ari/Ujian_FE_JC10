@@ -1,0 +1,8 @@
+.btn-cari {
+    background: linear-gradient(0deg, rgba(88,0,74,1) 0%, rgba(217,0,215,1) 100%);
+}
+
+.btn-cari:hover {
+    background: linear-gradient(180deg, rgba(88,0,74,1) 0%, rgba(217,0,215,1) 100%);
+}
+

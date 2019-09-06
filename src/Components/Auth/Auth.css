@@ -1,0 +1,84 @@
+.auth {
+    margin-top: 5%;
+    background: linear-gradient(90deg, rgba(113,1,95,1) 0%, rgba(231,16,197,1) 32%, rgba(145,0,122,1) 100%);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 10px;
+
+}
+
+.auth-left {
+    margin-top: 4%;
+    color: #ffff;
+}
+
+.auth-right {
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    
+}
+
+.btn-register {
+    background: #b8009b;
+    color: #ffff;
+    border-radius: 15px;
+}
+
+.btn-register:hover {
+    background: #ffff;
+    color: #b8009b;
+    border: 1px solid #b8009b;
+
+}
+
+
+/* .tab-auth {
+    background: #ffff;
+    color:  #b8009b;
+    border-radius: 15px;
+    width: 60%;
+    margin: auto;
+    
+} */
+
+/* .tab-auth1 {
+    position: relative;
+    float: center;
+} */
+
+.box-left:hover, .box-right:hover {
+    cursor: pointer;
+}
+
+.box-left {
+    background: #ffff;
+    color:  #b8009b;
+    width: 40%;
+    padding: 5px;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+
+}
+
+.box-right {
+    background: #ffff;
+    color:  #4b003f;
+    width: 40%;
+    padding: 5px;
+    border-top-right-radius: 10% 50%;
+    border-bottom-right-radius: 10% 50%;
+
+}
+
+.active {
+    background: linear-gradient(0deg, rgba(68,2,57,1) 0%, rgba(217,0,215,1) 100%);
+    /* border-radius: 10px; */
+    width: 40%;
+    color: #f8f9fa;
+    padding: 5px;
+    transition: 0.2s ease-in;
+
+}
